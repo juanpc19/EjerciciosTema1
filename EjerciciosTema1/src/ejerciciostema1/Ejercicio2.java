@@ -34,7 +34,8 @@ public class Ejercicio2 {
 		resto = numeroEntero %7 == 0 ? numeroSumar1 : numeroSumar2;
 		
 		/*imprimo el mensaje: Numero que ha de sumarle para obtener multiplo de 7:
-		  en consola mediante uso de System.out.print escribiendo el mensaje entre comillas " " */
+		  en consola mediante uso de System.out.print escribiendo el mensaje entre comillas " " 
+		  y añadiendo la variable resto haciendo concatenacion con operador+*/
 		System.out.print("Numero que ha de sumarle para obtener multiplo de 7: " + resto);
 		
 		//Cierro el Scanner con: dogma.close();
